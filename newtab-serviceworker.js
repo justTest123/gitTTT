@@ -34,6 +34,10 @@ self.addEventListener('activate', function(event) {
   });
 });
 
+self.whoAmI = function() {
+	return "justTest123";
+};
+
 self.addEventListener('fetch', function(event) {
   event.respondWith(
       caches.match(event.request).then(function(response) {
