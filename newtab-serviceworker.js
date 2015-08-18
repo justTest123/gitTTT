@@ -36,7 +36,7 @@ self.addEventListener('activate', function(event) {
 
 self.whoAmI = function() {
 	return {
-		name : "justTest123";
+		name : "!!!justTest123!!!";
 		id : 9527;
 	};
 };
