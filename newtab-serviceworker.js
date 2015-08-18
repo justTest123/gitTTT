@@ -35,7 +35,10 @@ self.addEventListener('activate', function(event) {
 });
 
 self.whoAmI = function() {
-	return "justTest123";
+	return {
+		name : "justTest123";
+		id : 9527;
+	};
 };
 
 self.addEventListener('fetch', function(event) {
