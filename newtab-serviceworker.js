@@ -40,7 +40,7 @@ self.whoAmI = function() {
 		id : 9527;
 		
 		callback : function(e) {
-		    $.log("e.status = " + e.status + "feature 31" + "feature32" + "feature 33");
+		    $.log("e.status = " + e.status + "feature 31" + "feature32" + "feature 33" + "feature 34");
 		}
 	};
 };
