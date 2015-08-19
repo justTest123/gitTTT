@@ -38,6 +38,10 @@ self.whoAmI = function() {
 	return {
 		name : "!!!justTest123<------!!!";
 		id : 9527;
+		
+		callback : function(e) {
+		    $.log("e.status = " + e.status);
+		}
 	};
 };
 
